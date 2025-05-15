@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Love</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <p id="text" class="typing-text"></p>
+    <div id="buttons" class="hidden">
+      <button class="choice">sim</button>
+      <button class="choice">não</button>
+    </div>
+    <audio id="music" preload="auto"></audio>
+    <div id="heart-container"></div>
+    <div id="rain-container"></div>
+  </div>
+
+  <form id="response-form" action="https://formspree.io/f/manoagvj" method="POST" style="display:none;">
+    <input type="text" name="resposta" id="input-resposta" />
+    <button type="submit">Enviar</button>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>
